@@ -322,4 +322,8 @@ h1{
         width: 14px;
         top: -3px;
     }
+    .btn{
+        font-size: .2px;
+        font-weight: 100;
+    }
 }
