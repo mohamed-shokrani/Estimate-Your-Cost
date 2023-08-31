@@ -326,4 +326,7 @@ h1{
         font-size: .2px;
         font-weight: 100;
     }
+    .sessions:first-child{
+        font-size: 1px;
+    }
 }
