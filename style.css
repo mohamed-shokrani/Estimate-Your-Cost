@@ -267,7 +267,12 @@ h1{
     border-top-left-radius: 10px;
 
 }
+@media only   screen and (max-width:720px){
+    .slider .bar{
+        margin-bottom: 7px;
+    }
 
+}
 @media only   screen and (max-width:504px){
     .card-container{
         display: flex;
@@ -275,11 +280,46 @@ h1{
        
     }
     .card{
-        flex: 1 1 100%;
-        margin: 20px 50px;
+        flex: 50 4 100%;
+        margin: 20px 35px;
     }
     .num{
         font-size: 40px;
     }
+    .slider .bar{
+        margin-bottom: 5px;
+    }
     
+}
+@media only   screen and (max-width:320px){
+    body{
+        height: 300vh;
+    }
+    .card-container{
+        display: flex;
+        flex-wrap: wrap;
+       
+    }
+    .card{
+        flex: 50 4 100%;
+        margin: 15px 20px;
+    }
+    .num{
+        font-size: 30px;
+    }
+    .scale ul li{
+       font-size: 1px;
+       
+    }
+   .slider .bar{
+        height: 10px;
+    }
+    .slider .progress{
+        height: 10px;
+    }
+    .slider .point{
+        height: 14px;
+        width: 14px;
+        top: -3px;
+    }
 }
